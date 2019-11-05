@@ -1,0 +1,13 @@
+"use strict";
+exports.__esModule = true;
+var Carro_1 = require("./Carro");
+var Moto_1 = require("./Moto");
+var Concessionaria_1 = require("./Concessionaria");
+var carro1 = new Carro_1["default"]("santa fe", 4);
+carro1.acelerar();
+var moto1 = new Moto_1["default"]();
+moto1.acelerar();
+var concessionaria = new Concessionaria_1["default"]('', []);
+console.log(concessionaria.fornecerHorariosDeFuncionamento());
+console.log(carro1);
+console.log(moto1);
